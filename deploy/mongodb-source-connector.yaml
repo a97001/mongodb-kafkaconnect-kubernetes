@@ -12,7 +12,7 @@ spec:
     topic.prefix: mongo
     database: test_db1
     collection: test_coll1
-    copy.existing: true
+    copy.existing: false
     key.converter: org.apache.kafka.connect.json.JsonConverter
     key.converter.schemas.enable: false
     value.converter: org.apache.kafka.connect.json.JsonConverter
